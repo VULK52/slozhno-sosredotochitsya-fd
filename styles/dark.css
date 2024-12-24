@@ -1,4 +1,4 @@
-.page.theme-dark {
+root:.theme-dark {
   --background-image: url("../images/cover-image-dark.png");
   --frame-color: #FF0070;
   --accent-color-opacity:#FF007066;

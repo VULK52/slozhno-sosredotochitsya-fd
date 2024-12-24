@@ -1,5 +1,5 @@
 .page {
-  font-family: var(--font-family);
+  font-family: var(--font-family); #шрифты в файле fontface подключены и переменная есть
   background-color: var(--background-color);
   background-attachment: fixed
 }

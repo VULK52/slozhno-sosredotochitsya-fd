@@ -1,4 +1,4 @@
-root:.theme-light {
+:root.theme-light {
   --background-image: url("../images/cover-image-light.png");
   --frame-color: #FF8DCB;
   --accent-color-opacity:#32312D66;

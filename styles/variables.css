@@ -1,4 +1,5 @@
 :root {
+    --font-family: 'IBM Plex mono';
     --background-image: url("../images/cover-image-dark.png");
     --frame-color: #FF0070;
     --accent-color-opacity:#FF007066;

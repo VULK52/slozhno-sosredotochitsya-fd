@@ -1,28 +1,47 @@
-:root.theme-light {
-  --background-image: url("../images/cover-image-light.png");
-  --frame-color: #FF8DCB;
-  --accent-color-opacity:#32312D66;
-  --title-color:#FFC2E6;
-  --title-color-shadow:#FF0070;
-  --text-color: #353430;
-  --background-color: #fff1f7;
-  --decor-text-color:var(--text-color);
-  --card-title-color:var(--text-color);
-  --botton-color: var(--text-color);
-  --visibility: hidden;
+.page.theme_light {
+  --font-family: IBM Plex Mono;
+  --theme-bg: rgb(255, 241, 247);
+  --color-hero-text: rgb(255, 194, 230);
+  --color-title-text: rgb(53, 52, 48);
+  --color-link-focus: rgb(53, 52, 48);
+  --color-link-hover: rgb(53, 52, 48);
+  --color-text: rgb(53, 52, 48);
+  --color-text-bg: rgb(255, 141, 203);
+  --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+  --color-button-bg: rgb(53, 52, 48);
+  --color-button-text: rgb(53, 52, 48);
+  --color-card-text: rgb(53, 52, 48);
+  --rec: none;
+  --accent-color: rgb(255, 0, 112);
+  --accent-color-other: rgb(255, 141, 203);
+  --bg-hero: url(../images/cover-image-light.png);
+  --color-decoration: rgb(53, 52, 48);
+  --rec-color: transparent ;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-image: url("../images/cover-image-light.png");
-    --accent-color: #FF8DCB;
-    --title-color:#FFC2E6;
-    --title-color-shadow:#FF0070;
-    --text-color: #353430;
-    --background-color: #fff1f7;
-    --decor-text-color:var(--text-color);
-    --card-title-color:var(--text-color);
-    --botton-color: var(--text-color);
-    --visibility: hidden;
-    }
+    --theme-bg: rgb(255, 241, 247);
+    --color-hero-text: rgb(255, 194, 230);
+    --color-title-text: rgb(53, 52, 48);
+    --color-link-focus: rgb(53, 52, 48);
+    --color-link-hover: rgb(53, 52, 48);
+    --color-text: rgb(53, 52, 48);
+    --color-text-bg: rgb(255, 141, 203);
+    --color-button-bg-hover: rgba(50, 49, 45, 0.4);
+    --color-button-bg: rgb(53, 52, 48);
+    --color-button-text: rgb(53, 52, 48);
+    --color-card-text: rgb(53, 52, 48);
+    --accent-color: rgb(255, 0, 112);
+    --accent-color-other: rgb(255, 141, 203);
+    --bg-hero: url(../images/cover-image-light.png);
+    --color-decoration: rgb(53, 52, 48);
+    --rec-color: transparent;
+  }
+}
+
+@media (max-width <= 768px) {
+  :root {
+    --accent-color: rgb(255, 141, 203);
+  }
 }
